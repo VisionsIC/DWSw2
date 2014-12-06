@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	position: relative;
+}
+/* HEADER PROPERTIES & VALUES */
+header {
+	position: relative;
+	text-align: center;	
+}
+/* NAVIGATION PROPERTIES & VALUES */
+nav {
+	position: relative;
+	align-content: stretch;
+	border: 2px solid #a1a1a1;
+    padding: 0px 0px; 
+    background: #ff;
+    border-radius: 15px;	
+}
+/* SECTION PROPERTIES & VALUES */
+section {
+	border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    background: #dddddd;
+    border-radius: 25px;	
+}
+/* FIGURE PROPERTIES & VALUES */
+figure {
+	border: 1px solid;
+    padding: 10px 10px; 
+    background: hsla(229,98%,50%,1.00);
+    border-radius: 15px;
+	float: left;	
+}
+/* ARTICLE PROPERTIES & VALUES */
+article {
+	float: left;
+	border: 1px solid hsla(0,0%,0%,1.00);
+	padding: 10px 40px;
+	background: #dddddd;
+	border-radius: 25px;
+	display: inline-block;
+}
+/* BLOCKQUOTE PROPERTIES & VALUES */
+blockquote {
+	position: relative;
+	z-index: -1;
+	color: hsla(224,100%,48%,1.00);
+	border: 1px solid hsla(229,98%,50%,1.00);
+	background: #ff;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;		
+}
+/* FIGURE CAPTION PROPERTIES & VALUES */
+figcaption {
+	color: hsla(0,0%,100%,1.00);	
+}
+/* ORDERED LIST PROPERTIES & VALUES */
+ol {
+	position: relative;
+	z-index: -1;
+	color: hsla(359,100%,48%,1.00);
+	border: 1px solid hsla(359,100%,48%,1.00);
+	background: #ff;
+	padding: 5px 5px 5px 5px;
+	border-radius: 15px;	
+}
+/* UNORDERED LIST PROPERTIES & VALUES */
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0em 3em;
+	background-color: hsla(0,0%,100%,1.00);
+	border: thin;
+	border-color: hsla(0,0%,0%,1.00);
+	 
+}
+/* LINK PROPERTIES & VALUES */
+a {
+	text-decoration: none;
+	color: hsla(0,0%,0%,1.00);
+}
+/* LINK HOVER STATE Rules */
+a:hover {
+	color: hsla(231,93%,49%,1.00);
+	text-shadow: 1px 1px #000000;
+	
+}
+/* HEADING 1 Rules */
+h1 {
+	color: hsla(0,0%,0%,1.00);
+	text-shadow: 2px 2px #A19D9D;
+}
+/* HEADING 2 Rules */
+h2 {
+	text-align: center;	
+	color: hsla(230,97%,50%,1.00);
+	text-shadow: 2px 2px #A19D9D;	
+}
+/* HEADING 3 Rules */
+h3 {
+	text-align: center;	
+	color: hsla(0,0%,0%,1.00);
+	text-shadow: 2px 2px #A19D9D;	
+}
+
+
+img {
+	border: 1px solid hsla(0,0%,100%,1.00);
+	position: relative;
+}
